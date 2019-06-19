@@ -1,0 +1,9 @@
+{
+    "singleApiGet" : "http://localhost/getSingleServer.php", 
+    "getAllApis" : "http://localhost/getApis.php", 
+    "deleteApi" : "http://localhost/deleteApi.php", 
+    "createUser" : "http://localhost/createUser.php", 
+    "checkUser" : "http://localhost/checkUser.php", 
+    "addApi" : "http://localhost/addApi.php" 
+
+}

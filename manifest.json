@@ -1,0 +1,30 @@
+{
+
+    "description": "Ks Requester ",
+    "manifest_version": 2,
+    "name": "KS Requester",
+    "version": "1.0",
+	"author":"Adrian Świszcz",
+    "icons": {
+      "48": "icon/ksblue.png"
+    },
+
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "https://ajax.googleapis.com/",
+        "cookies",
+        "<all_urls>"
+    ],
+    "browser_action": {
+      "default_icon": "icon/ksblue.png",
+      "theme_icons": [{
+          "light": "icon/ksblue.png",
+          "dark": "icon/ksblue.png",
+          "size": 32
+      }],
+      "default_title": "KS_Requester",
+      "default_popup": "login.html"
+    }
+
+  }
